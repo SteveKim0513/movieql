@@ -1,2 +1,3 @@
-// import { } from "graphql-yoga"
-console.log("sss");
+import { GraphQLServer } from "graphql-yoga";
+
+const server = new GraphQLServer({});

@@ -8,17 +8,17 @@ movie API with GraphQL
 
 ```
 brew install yarn
-- yarn init
+yarn init
 ```
 
-> > result : package.json
+> result : package.json
 
 ## connect repo. from github(git command)
 
 ```
-- git init
-- git remote add origin https://github.com/SteveKim0513/movieql
-- git pull origin master
+git init
+git remote add origin https://github.com/SteveKim0513/movieql
+git pull origin master
 ```
 
 ## graphql-yoga : easy setup
@@ -29,10 +29,24 @@ brew install yarn
 yarn add graphql-yoga
 ```
 
-- install nodemon(restart server when you change code file)
+- install nodemon(restart server when you change code file) & babel
 
 ```
 yarn global add nodemon
+yarn global add babel-cli
+```
+
+- make .babelrc file
+
+```
+//.babelrc file
+{
+  "presets": ["env", "stage-3"]
+}
+```
+
+```
+yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev
 ```
 
 # Solve two problems with GraphQL
