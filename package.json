@@ -1,0 +1,15 @@
+{
+  "name": "MovieWebApp",
+  "version": "1.0.0",
+  "description": "Movie API with GraphQL",
+  "main": "index.js",
+  "repository": "https://github.com/SteveKim0513/movieql",
+  "author": "Steve Kim <stevek4074@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "scripts": {
+    "start": "nodemon"
+  }
+}
